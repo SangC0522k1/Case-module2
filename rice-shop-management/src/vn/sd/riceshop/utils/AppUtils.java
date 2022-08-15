@@ -116,7 +116,7 @@ public class AppUtils {
     }
 
     public static void exit() {
-        System.out.println("\tTạm biệt. Hẹn gặp lại lần sau!");
+        System.out.println("\tTạm biệt. Cần Gạo Thì Tìm Sang Nha!");
         System.exit(5);
     }
 }

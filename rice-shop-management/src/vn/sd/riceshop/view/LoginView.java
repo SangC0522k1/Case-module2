@@ -52,7 +52,7 @@ public class LoginView {
     private boolean isRetry() {
         do {
             try {
-                System.out.print("╔═════════════════════════════════════════════════════════╗\n" +
+                System.out.print("╔══════════════════════════════════════════════════════════════════╗\n" +
                         "║                                                                  ║\n" +
                         "║                            MAIN MENU                             ║\n" +
                         "║                                                                  ║\n" +

@@ -34,7 +34,7 @@ public class UserView {
                 User user = new User(id, username, password, fullName, phone, email, address, Role.USER);
                 setRole(user);
                 userService.add(user);
-                System.out.println("Đã thêm User thành công!");
+                System.out.println("Đã thêm thành công!");
             } catch (Exception e) {
                 System.out.println("Nhập sai. vui lòng nhập lại!");
                 e.printStackTrace();
@@ -186,7 +186,7 @@ public class UserView {
                     break;
             }
         }
-        System.out.print("╔═════════════════════════════════════════════════════════╗\n" +
+        System.out.print("╔══════════════════════════════════════════════════════════════════╗\n" +
                 "║                                                                  ║\n" +
                 "║                    REMOVE MENU                                   ║\n" +
                 "║                 [1] Xác nhận xóa người dùng này                  ║\n" +
@@ -350,7 +350,7 @@ public class UserView {
     private String inputAddress(InputOption option) {
         switch (option) {
             case ADD:
-                System.out.println("Nhập địa chỉ (vd: Hueq" +
+                System.out.println("Nhập địa chỉ (vd: Hue" +
                         ")");
                 break;
             case UPDATE:
