@@ -35,7 +35,7 @@ public class ProductView {
         do {
             showProducts(InputOption.UPDATE);
             long id = inputId(InputOption.UPDATE);
-            System.out.print("╔═════════════════════════════════════════════════╗\n" +
+            System.out.print("╔══════════════════════════════════════════════════════════╗\n" +
                     "║                                                          ║\n" +
                     "║                            UPDATE                        ║\n" +
                     "║                                                          ║\n" +

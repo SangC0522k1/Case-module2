@@ -104,7 +104,7 @@ public class UserView {
             try {
                 showUsers(InputOption.UPDATE);
                 long id = inputId(InputOption.UPDATE);
-                System.out.print("╔═════════════════════════════════════════════════════════╗\n" +
+                System.out.print("╔══════════════════════════════════════════════════════════════════╗\n" +
                         "║                                                                  ║\n" +
                         "║                            UPDATE                                ║\n" +
                         "║                                                                  ║\n" +
@@ -350,7 +350,8 @@ public class UserView {
     private String inputAddress(InputOption option) {
         switch (option) {
             case ADD:
-                System.out.println("Nhập địa chỉ (vd: Huế)");
+                System.out.println("Nhập địa chỉ (vd: Hueq" +
+                        ")");
                 break;
             case UPDATE:
                 System.out.println("Nhập địa chỉ mà bạn muốn đổi");
