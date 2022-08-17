@@ -16,7 +16,6 @@ public class ProductView {
     public ProductView() {
         productService = ProductService.getInstance();
     }
-
     public void add() {
         do {
             long id = System.currentTimeMillis() / 1000;
@@ -29,7 +28,6 @@ public class ProductView {
 
         } while (AppUtils.isRetry(InputOption.ADD));
     }
-
     public void update() {
         boolean isRetry;
         do {
@@ -76,7 +74,6 @@ public class ProductView {
             isRetry = option != 4 && AppUtils.isRetry(InputOption.UPDATE);
         } while (isRetry);
     }
-
     public void remove() {
         showProducts(InputOption.DELETE);
         long id;
@@ -98,7 +95,6 @@ public class ProductView {
                     break;
             }
         }
-
         System.out.print("╔════════════════════════════════════════════════════════════════╗\n" +
                 "║                                                                ║\n" +
                 "║                        REMOVE MENU                             ║\n" +
@@ -116,9 +112,7 @@ public class ProductView {
             AppUtils.isRetry(InputOption.DELETE);
         }
         if (option == 0) AppUtils.exit();
-
     }
-
     public void showProducts(InputOption inputOption) {
         System.out.println("=========================================================DANH SÁCH GẠO=========================================================");
         System.out.printf("%-15s %-30s %-25s %-20s %-20s %-20s\n", "Id", "Tên sản phẩm", "Giá sản phẩm", "Số lượng", "Ngày tạo", "Ngày cập nhật");

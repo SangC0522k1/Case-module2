@@ -190,7 +190,7 @@ public class OrderView {
                 }
             } while (!is);
         } catch (Exception e) {
-            System.out.println("Nhap khong dung! Vui long nhap lai.");
+            System.out.println("Nhập không đúng! Vui long nhập lại.");
         }
     }
 

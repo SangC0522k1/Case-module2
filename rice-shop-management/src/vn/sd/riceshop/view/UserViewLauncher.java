@@ -44,7 +44,5 @@ public class UserViewLauncher {
                 System.out.println("Nhập sai! vui lòng nhập lại");
             }
         } while (option != 5);
-
     }
-
 }
